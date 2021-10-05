@@ -8,3 +8,6 @@ This project implements a password generator based on user selected criteria.
     - The desired length is between 8 and 128 and 
     - At least one type of character is desired.
 - After the user answers all prompts a random password is generated based on the selected criteria and displayed on the page.
+
+
+Link to Deployed application: https://ramantv.github.io/password_generator/
