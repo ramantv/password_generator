@@ -56,6 +56,9 @@ function promptUser() {
   while (desiredPasswordLength < 8 || desiredPasswordLength > 128) {
     desiredPasswordLength = prompt("What is the desired password length? (Enter a number between 8 and 128): ");
     console.log("password length Needed = " + desiredPasswordLength);
+    if (isNaN(desiredPasswordLength)) {
+      desiredPasswordLength = 0;
+    }
   }
 
   var wantLowerCase = "";
